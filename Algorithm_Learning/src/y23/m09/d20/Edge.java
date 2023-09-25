@@ -5,10 +5,9 @@ package y23.m09.d20;
  */
 
 public class Edge {
-
-    int weight;
-    Node from;
-    Node to;
+    public int weight;
+    public Node from;
+    public Node to;
 
     public Edge(int weight, Node from, Node to){
         this.weight = weight;
